@@ -18,12 +18,12 @@ const router = createBrowserRouter([
         element: <Login />,
       },
       {
-        path: "/newsletter",
-        element: <Newsletter />,
+        path: "/",
+        element: <Hero />,
       },
       {
-        path: "/hero",
-        element: <Hero />,
+        path: "/newsletter",
+        element: <Newsletter />,
       },
       {
         path: "/analytics",
@@ -40,3 +40,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </AppProvider>
   </React.StrictMode>
 );
+// bhary naice
